@@ -1,0 +1,24 @@
+Building sites … 
+                   | EN  
++------------------+----+
+  Pages            |  6  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     | 14  
+  Processed images |  0  
+  Aliases          |  3  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 18 ms
+Watching for changes in /usr/local/hugo/myterminal/{content,data,layouts,static,themes}
+Watching for config changes in /usr/local/hugo/myterminal/config.toml
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://www.yifanyou.com:80/ (bind address 0.0.0.0)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site
+2019-02-13 01:21:14.566 +0800
+Total in 3 ms
