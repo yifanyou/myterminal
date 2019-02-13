@@ -5,3 +5,4 @@ draft: true
 ---
 
 Don't waste life in doubts and fears. （ Emerson ）
+![avatar](/img/fear.jpg)
