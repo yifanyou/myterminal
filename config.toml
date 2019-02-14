@@ -1,32 +1,32 @@
-title = "My New Hugo Site"
 baseurl = "/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
-
+hasCJKLanguage = true
+summaryLength = 200
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "blue"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
 
 [languages]
   [languages.en]
-    title = "secret garden"
-    subtitle = "shoo "
+    title = "AnYang Road"
+    subtitle = "~~~ "
     keywords = ""
-    copyright = ""
+    copyright = "Copyright@2019 yifanyou"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "AnYang Road"
       logoHomeLink = "/"
 
-    [languages.en.menu]
+    [languages.en.menu]  
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
@@ -36,10 +36,10 @@ paginate = 5
         name = "Showcase"
         url = "/showcase"
   [languages.cn]
-    title = "secret garden"
-    subtitle = "shoo "
+    title = "安阳路"
+    subtitle = "写一点点东西"
     keywords = ""
-    copyright = ""
+    copyright = "Copyright@2019 yifanyou"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
@@ -49,11 +49,11 @@ paginate = 5
       logoHomeLink = "/"
 
     [languages.cn.menu]
-      [[languages.en.menu.main]]
+      [[languages.cn.menu.main]]
         identifier = "about"
         name = "关于"
         url = "/about"
-      [[languages.en.menu.main]]
+      [[languages.cn.menu.main]]
         identifier = "showcase"
-        name = "首页"
+        name = "Showcase"
         url = "/showcase"
