@@ -12,6 +12,19 @@ summaryLength = 200
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 3
 
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[params.valine]
+  enable = true
+  appId = 'rGvi94F4mTozckMWW0olNl9A-gzGzoHsz'
+  appKey = 'pPjzz5kgJL1vgJl6KSAgPKSM'
+  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+  verify = false # Verification code
+  avatar = 'mm'
+  placeholder = '说点什么吧...'
+  visitor = true
+
 [languages]
   [languages.en]
     title = "AnYang Road"

@@ -1,0 +1,25 @@
+<footer class="footer">
+  <div class="footer__inner">
+    {{ if $.Site.Copyright }}
+      <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
+    {{else}}
+      <div class="copyright">
+        <span>© {{ now.Year }} Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+    {{end}}
+  </div>
+</footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?be2906773043a9225d7fb1d093ec55f5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script src="{{ "assets/main.js" | absURL }}"></script>
+<script src="{{ "assets/prism.js" | absURL }}"></script>
